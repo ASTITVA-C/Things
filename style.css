@@ -1,15 +1,32 @@
-.top{
-    background-color: white  ;
+body{
+    margin : 0cm;
+    padding : 0cm;
 }
-.blink, .it {
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-        letter-spacing:0;
+.top{
+    background-color : black;
+    margin-top : 0cm; 
+    padding-top: 0cm;
+}
+.logo-text , .menu , .log-in , .sign-up{
+    margin : 19px;
+    font-size : 20px;
+    font-weight : 0.88px;
 
 }
-.logo{
-    font-size: 0;
-    letter-spacing: 0;
+.logo-text,.log-in , .menu{
+    color : white;
+    border : none ;
+    background-color : black  ;
     
+}
+.menu  , .log-in , .sign-up{
+    float : right ;
+    font-size : 15px ;
+}
+.sign-up{
+    color : black;
+    border : none ;
+    border-radius : 20px ;
+    background-color : white ;
+    padding : 5px ;
 }
